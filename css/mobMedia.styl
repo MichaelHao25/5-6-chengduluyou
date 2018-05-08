@@ -1,0 +1,133 @@
+@media screen and (max-width:750px)
+	.wid
+		width 100%
+		padding-left 3%
+		padding-right 3%
+	
+	// 浮动
+	.m-fl-fl
+		float left !important
+	.m-fl-fr
+		float left !important
+	.m-fl-no
+		float none !important
+	.m-bdl-n
+		border-left none
+	.m-bdr-n
+		border-right none
+
+	.m-dis-no
+		display none !important
+	
+	.m-dis-bl
+		display block !important
+	
+	.m-po-re
+		position relative !important
+	
+	.m-po-ab
+		position absolute !important
+	
+	.m-po-fi
+		position fixed !important
+	
+	.m-hei-at
+		height auto !important
+	
+	.m-wid-at
+		width auto !important
+	
+	.m-after-no
+		&:after
+			display none
+		
+		&:before
+			display none
+	
+
+	
+	.m-box-at
+		margin 0 auto !important
+	
+	.m-ta-l
+		text-align left !important
+	
+	.m-ta-c
+		text-align center !important
+	
+	.m-ta-r
+		text-align right !important
+	
+	//相对定位
+	.m-po-re
+		position relative !important
+	
+	.m-bg-size
+		background-size cover !important
+	
+	.m-item-li
+		margin-left 0 !important
+		> li
+			width 100% !important
+			margin-left 0 !important
+	//删格化
+	for i in 1..12
+		.m-xs-{i}
+			width i*(100/12)% !important
+			margin-left 0 !important
+			padding-right 0 !important
+			padding-left 0 !important
+			float left
+			margin 0 !important
+			if i==12
+				border-left none !important
+
+	// 像素(px)
+	pixel(obj,w)
+		for i in 0..150
+			.m-{obj}-{i*2}
+				{w} i*2px !important
+	
+	//	margin
+	pixel(mt,margin-top)
+	pixel(mr,margin-right)
+	pixel(mb,margin-bottom)
+	pixel(ml,margin-left)
+	
+	//	padding
+	pixel(pt,padding-top)
+	pixel(pr,padding-right)
+	pixel(pb,padding-bottom)
+	pixel(pl,padding-left)
+	pixel(lf,left)
+	pixel(ri,right)
+	
+	// width
+	pixel(widp,width)
+	
+	// height
+	pixel(heip,height)
+	
+	
+	// 百分比(%)
+	percent(obj,w)
+		for i in 0..50
+			.m-{obj}-{i*2}
+				{w} i*2% !important
+	
+	percent(wid,width)
+	
+	
+	// 百分比(%)
+	complex(obj,w)
+		for i in 0..25
+			.m-{obj}-{i*2}
+				{w}  i*2px 0
+	
+	// 复合写法
+	complex(tb,margin)
+	complex(tb,padding)
+		
+
+	
+	

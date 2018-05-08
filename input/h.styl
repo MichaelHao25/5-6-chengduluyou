@@ -1,0 +1,673 @@
+.bgffff
+	background #ffffff
+// .h-bg-f7f7f7
+// 	background #f7f7f7
+.h-banner
+	height 500px
+	background url('') center center no-repeat	
+.group-header
+	margin-top -84px
+.h-container
+	max-width 1200px
+	width 100%
+	margin 0 auto
+	.clear
+		zoom 1
+	.clear:after
+		content ''
+		display block
+		clear both
+	.h-container li
+		float none
+	.h-container a
+		font-size inherit
+		line-height inherit
+		color inherit
+	.group-header
+		padding 35px 30px
+		box-shadow 0 0 20px rgba(79,79,79,0.2)
+		background #ffffff
+		.item
+			float left
+			width 33.33%
+			&.bd
+				border-right 1px solid #f4f4f4
+				border-left 1px solid #f4f4f4
+			.wrap
+				position relative
+				margin 0 auto
+				width 80%
+				text-align center
+				background #ffffff
+				&:after
+					content ""
+					position absolute
+					top -10px
+					bottom -10px
+					left 0
+					right 0
+					border 1px solid #99c34c
+					transition transform 0.3s 
+					transform scale(0)
+				&:before
+					z-index 1
+					content ""
+					position absolute
+					top -10px
+					right 0
+					width 25px
+					height 25px
+					border-radius 50%
+					background #99c34c url('../img/33cf44e296ef965437a4a5a9a16654a4-12+9.png') center center no-repeat
+					transform translate(50%, -50%)
+					transition opacity  0.3s 0.3s 
+					opacity 0
+				&.active
+					&:after
+						transform scale(1)
+					&:before
+						opacity 1
+				small,span
+					display inline-block
+					padding-left 30px
+					text-align left
+					box-sizing content-box
+					width 140px
+					line-height 2
+				small
+					position relative
+					font-size 12px
+					color #bbbbbb
+					text-transform uppercase
+					background url() left center/auto 18px no-repeat
+					&.icon-0
+						background-image url('../img/3c491a3b2f4ec68977dd9ae98c3ab3bd-19+19.png')
+					&.icon-1
+						background-image url('../img/c4c3f0e8dd414689bae57b4148be35a9-17+18.png')
+					&.icon-2
+						background-image url('../img/357af78f4fb3626cd459e8f4788460a7-19+18.png')
+					&:after
+						content ""
+						position absolute
+						bottom 0
+						left 30px
+						right 0
+						border-bottom 1px solid #f0f0f0
+				h3
+					font-size 24px
+					color #99c34c
+					font-weight normal
+	.group-option
+		margin 30px 0 10px
+		padding 20px 30px 7px
+		background #ffffff
+		.row	
+			padding-bottom 20px
+			font-size 12px
+			color #929292
+			line-height 30px
+			.item
+				cursor pointer
+			.item
+				&.active
+					.check-box
+						background-image url('../img/769f0d5c19d4926830e4292840f5f4aa-12+12.png')
+			.label
+			.content
+			.item
+			.check-box
+			.value
+			.multiple
+			.text
+			.search
+				float left
+			input
+				font-size 12px
+			.content
+				color #000000
+			.ml10
+				margin-left 10px
+			.mr30
+				margin-right 30px
+			.mr5
+				margin-right 5px
+			.mr10
+				margin-right 10px
+			.w120
+				width 115px
+			.w40
+				width 35px
+			.checkbox
+				display none
+			.check-box
+				margin-top 9px
+				width 12px
+				height 12px
+				background url('../img/961caa5fbe92a96b2d9dd854179bd28e-12+12.png') center center no-repeat
+			.value
+				line-height 30px
+			.multiple
+				padding 0 17px 0 27px
+				box-sizing content-box
+				height 28px
+				line-height 28px
+				border 1px solid #e0e0e0
+				background url('../img/091b68a9f9c74429ab85fef570a4b16d-13+13.png') 9px center no-repeat
+			.text
+				line-height 28px
+				height 28px
+				box-sizing content-box
+				padding-left 5px
+				border 1px solid #e0e0e0
+			.search
+				width 90px
+				height 30px
+				line-height 30px
+				text-align center
+				border-radius 3px
+				background #99c34c
+				color #ffffff
+	.group-list
+		&.index-style
+			.group-list-container
+				padding-top 0
+				margin-left 0
+				&.two-columns
+					.item
+						width 502px
+						overflow hidden
+						.pic
+							float left
+							width 220px
+						.content
+							width 280px
+							box-sizing border-box
+							float left
+							h3
+								padding-top 0
+								padding-bottom 5px
+							.people
+								padding-bottom 15px
+								font-size 12px
+								color #929292
+							.base-info
+								font-size 14px
+								color #454545
+								line-height 1.5
+								.time
+									color #929292
+
+				.item
+					display block
+					margin-bottom 18px
+					margin-left 18px
+					width 335px
+					&.mb0
+						margin-bottom 0
+		.group-list-header
+			padding 10px 0
+			background linear-gradient(to bottom,#fcfcfc,#f2f2f2)
+			border 1px solid #e0e0e0
+			.sort
+				.item
+					font-size 12px
+					color #929292
+					line-height 20px
+					cursor pointer
+					&.active
+						.radio
+						.value
+							color #9cc552
+						.check-box
+							background-image url('../img/769f0d5c19d4926830e4292840f5f4aa-12+12.png')
+					.radio
+						padding 0 15px 0 20px
+						border-right 1px solid #dcdcdc
+						background url('') right 6px center no-repeat
+						&.icon-down
+							background-image url('../img/541bdeb37e212d9682ea0211b4d7453f-10+14.png')
+						&.icon-up
+							background-image url('../img/1c6e4e3983eb169d78325beb106bb191-10+14.png')
+					.value
+						padding-right 15px
+					.checkbox
+						display none
+					.check-box
+						margin-top 4px
+						margin-right 6px
+						margin-left 6px
+						width 12px
+						height 12px
+						background url('../img/961caa5fbe92a96b2d9dd854179bd28e-12+12.png') center center no-repeat
+			.page-control
+				margin-right 17px
+				font-size 12px
+				color #929292
+				line-height 20px
+				.current-page
+					color #99c34c
+				.total-page
+					padding-right 10px
+				.previous
+				.next
+					width 22px
+					height 18px
+					box-sizing content-box
+					background #f5f5f5 url('../img/4d55602059704e5c48eb75748c33ec26-9+16.png') center center no-repeat
+					border 1px solid #e0e0e0
+				.next
+					border-left none
+					background #ffffff url('../img/d724349fdff967c1aafe06b49805f913-9+16.png') center center no-repeat
+			.interest
+			.like
+				padding-left 14px
+				font-size 14px
+				color #000000
+				line-height 20px
+				width auto
+				margin 0
+			.like
+				font-weight bold
+			.reload
+				padding 0 20px 0 40px
+				font-size 14px
+				line-height 20px
+				color #a2bd5b
+				background url('../img/ee2cb630901702710e0759b061dbb8b9-23+23.png') left center/auto 100% no-repeat
+		.group-list-container
+			padding-top 10px
+			margin-left -16px
+			.item
+				margin-bottom 10px
+				width 288px
+				margin-left 16px
+				background #ffffff
+				transition 0.3s
+				&:hover
+					box-shadow 0 0 20px rgba(79,79,79,0.2)
+				.pic
+					&~*
+						padding-left 10px
+						padding-right 10px
+					img
+						display block
+						width 100%
+				h3
+					height 57px
+					padding-top 5px
+					font-size 14px
+					color #454545
+					line-height 26px
+					font-weight normal
+					.new
+						color #99c34c
+					.hot
+						color #fe5123
+				.date
+					font-size 12px
+					color #929292
+					line-height 2
+				.tips
+					padding-top 5px
+					span
+						margin-right 5px
+						width 50px
+						height 20px
+						text-align center
+						font-size 12px
+						color #929292
+						line-height 18px
+						border 1px solid #929292
+				.location
+					padding-left 25px
+					font-size 12px
+					color #929292
+					line-height 40px
+					background url('../img/ca417b5eb0a3c7c5ec1b931e32fc8573-14+18.png') left center no-repeat
+				.bdb
+					border-bottom 1px solid #eeeeee
+				.cost
+					font-size 12px
+					line-height 40px
+					color #fe5123
+					.large
+						font-size 20px
+						font-weight bold
+						line-height 0
+				.author
+				.total
+				.evaluation
+					font-size 12px
+					color #929292
+					line-height 32px
+				.evaluation
+					padding-right 10px
+					line-height 40px
+				.total
+					padding-left 25px
+					background url('../img/44abd4fa3c5f92b225fd11ee56d30b99-16+13.png') left center no-repeat
+	.group-order
+		padding 30px 0 0
+		.group-order-header
+			margin-bottom 10px
+			padding 0 30px
+			font-size 12px
+			color #555555
+			line-height 60px
+			background #ffffff
+			.cost
+				margin-left 7px
+				color #929292
+				span
+					font-size 20px
+					line-height 1
+					color #fe5123
+		.group-order-details
+			margin-bottom 10px
+			padding 0 30px 10px
+			background #ffffff
+			h3
+				padding-top 10px
+				font-size 14px
+				line-height 38px
+				color #000000
+				border-bottom 1px solid #e0e0e0
+			h4
+				padding 20px 0 10px
+				font-size 16px
+				color #000000
+			p
+				padding 7px 0 7px 30px
+				font-size 12px
+				color #555555
+				background url('../img/42e8e1e2a2035cca52731cee5897a192-14+14.png') left center no-repeat
+			.table
+				margin-top 10px
+				width 370px
+				height 140px
+				border 1px solid #e1e1e1
+				thead
+					background #eeeeee
+					border-bottom 1px solid #e1e1e1
+					tr
+					th
+						font-size 12px
+						color #555555
+						line-height 38px
+						font-weight normal
+				th
+				td
+					text-align center
+					font-size 12px
+					color #555555
+					line-height 30px
+					border-left 1px solid #e1e1e1
+					border-right 1px solid #e1e1e1
+	.group-details-enroll
+		margin 30px 0 20px
+		background #ffffff
+		padding 15px
+		.pic
+			width 480px
+			img
+				display block
+				width 100%
+		.content
+			width 670px
+			h3
+				font-size 20px
+				color #454545
+				line-height 2
+				.new
+					color #99c34c
+					line-height 1
+			.tips
+				padding-bottom 8px
+				span
+					margin-right 10px
+					font-size 12px
+					color #929292
+					line-height 24px
+					height 24px
+					box-sizing content-box
+					padding 0 10px
+					border 1px solid #99c34c
+			.pl30
+				padding-left 30px
+				font-size 12px
+				color #555555
+				line-height 34px
+				background url('') left center no-repeat
+				.attention
+					margin-top 7px
+					margin-left 10px
+					width 50px
+					height 20px
+					font-size 12px
+					color #ffffff
+					line-height 20px
+					text-align center
+					background #ffa320
+					border-radius 2px
+			.cost
+				margin-top 20px
+				span
+					margin-right 10px
+					width 90px
+					height 30px
+					text-align center
+					font-size 12px
+					color #555555
+					line-height 30px
+					border 1px solid #e5e5e5
+					box-sizing content-box
+					transition 0.3s
+					cursor pointer
+					&.active
+						border-color #8bca36
+					i
+						font-size 16px
+						color #ff3a00
+						font-weight bold
+						line-height 0
+			.number
+				margin 14px 0 24px
+				div
+					padding-left 10px
+					font-size 12px
+					color #555555
+					line-height 28px
+					height 28px
+					box-sizing content-box
+					border 1px solid #e5e5e5
+					.btn
+						margin-left 10px
+						width 30px
+						text-align center
+						line-height 28px
+						cursor pointer
+						font-size 16px
+						border-left 1px solid #e5e5e5
+						user-select none
+			.enroll
+				width 220px
+				height 50px
+				font-size 16px
+				color #ffffff
+				background #ff3a00
+				line-height 50px
+				text-align center
+				cursor pointer
+			.favorites
+			.share
+				font-size 12px
+				color #555555
+				line-height 50px
+				height 50px
+				margin-left 30px
+				padding-left 30px
+				background url('') left center no-repeat
+	.group-details-form
+		margin-bottom 10px
+		h3
+			font-size 16px
+			color #454545
+			line-height 40px
+			background #eeeeee
+			font-weight normal
+			text-align center
+		.row
+			padding-top 20px
+			width 100%
+			background #ffffff
+			&.p50-0-70
+				padding 50px 0 70px
+				text-align center
+			.name
+				padding-right 10px
+				width 430px
+				font-size 12px
+				text-align right
+				color #000000
+				line-height 30px
+				.red
+					padding-right 10px
+					font-size 16px
+					color #ff3a00
+					line-height 0
+			input
+				padding-left 6px
+				width 350px
+				height 30px
+				line-height 28px
+				font-size 12px
+				color #000
+				border 1px solid #e5e5e5
+				&.submit
+				&.cancel
+					margin 0 5px
+					width 140px
+					height 40px
+					font-size 16px
+					color #ffffff
+					line-height 40px
+					text-align center
+					background #faaeae
+					border none 
+					outline none 
+					cursor pointer
+				&.cancel
+					background #8bca36
+	.group-details-content
+		margin-bottom 15px
+		padding 0 30px
+		background #ffffff
+		h3
+			padding-top 15px
+			font-size 16px
+			color #454545
+			line-height 36px
+			border-bottom 1px solid #e5e5e5
+		.user-agreement
+			position relative
+			margin 60px 20px 25px 0
+			padding 0 20px 10px 40px
+			border 1px solid #99c34c
+			background #fff
+			h4
+			p
+				position relative
+				z-index 2
+			.layout
+				position absolute
+				bottom -25px
+				right -20px
+				width 100%
+				height 100%
+				border 1px solid #99c34c
+			&:after
+				content ''
+				position absolute
+				top 0
+				bottom 0
+				left 0
+				right 0
+				z-index 1
+				background #ffffff
+			h4
+				font-size 24px
+				color #555555
+				font-weight normal
+				text-align center
+				line-height 2
+			p
+				font-size 12px
+				color #555555
+				line-height 2
+				&.pt20
+					padding-top 20px
+		.ads
+			padding 50px 0
+			.pic
+				img
+					display block
+					max-width 1150px
+					margin 0 auto
+
+
+
+.index
+	padding-top 20px
+	.index-header-title
+		height 38px
+		.icon
+			width 38px
+			height 100%
+			background url() center center no-repeat
+		h3
+			font-size 16px
+			color #99c34c
+			line-height 38px
+			&.cf07439
+				color #f07439
+			&.c369ff6
+				color #369ff6
+			small
+				font-size 12px
+				color #c9c9c9
+				padding-left 10px
+				text-transform uppercase
+		.more
+			font-size 12px
+			color #99c34c
+			line-height 38px
+	.index-content
+		.item
+			display flex
+			justify-content space-between
+			width 100%
+			.left-menu
+				flex 0 0 140px
+				display flex
+				align-items center
+				flex-direction column
+				justify-content space-around
+				background #99c34c
+				&.bgf07439
+					background #f07439
+				&.bg369ff6
+					background #369ff6
+				a
+					display block
+					font-size 16px
+					color #ffffff
+					width 60px
+					height 60px
+					border-radius 50%
+					text-align center
+					line-height 60px
+					border 1px dashed #fff
+			.right-content
+				flex 1 1 auto
+			
+		
